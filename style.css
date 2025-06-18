@@ -5,8 +5,10 @@
 }
 
 header{
-    background-color: #424242;
-    color: white;
+    background-color: #a7a7a7;
+    color: black;
+
+    border-bottom: solid black 2px;
 
     display: flex;
     align-items: center;
@@ -26,7 +28,7 @@ nav ul{
     list-style-type: none;
 }
 
-li{
+header ul li{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,17 +36,16 @@ li{
     cursor: pointer;
     transition: 0.3s;
 
-    border-left: solid white 1px;
+    border-left: solid black 2px;
     padding-inline: 20px;
     height: 40px;
 }
 
-li:hover{
-    background-color: #616161;
+header ul li:hover{
+    background-color: #d7d7d7;
 }
 
 li img{
-    filter: invert(100%);
     width: 20px;
     height: 20px;
 }
