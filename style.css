@@ -5,12 +5,10 @@
 }
 
 header{
-    background-color: #a7a7a7;
+    background-color: #d9dfa7;
     color: black;
-    border-bottom: solid black 2px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding-left: 10px;
     height: 40px;
     transition: 0.3s;
@@ -19,6 +17,7 @@ header{
 #logoofa{
     width: auto;
     height: 1rem;
+    margin-right: 10px;
 }
 
 nav ul{
@@ -33,19 +32,57 @@ header ul li{
     gap: 10px;
     cursor: pointer;
     transition: 0.3s;
-
-    border-left: solid black 2px;
     padding-inline: 20px;
     height: 40px;
 }
 
 header ul li:hover{
-    background-color: #d7d7d7;
+    background-color: #fbffdc;
 }
 
 li img{
     width: 25px;
     height: 25px;
+}
+
+.navegationbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: black;
+    margin: 10px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.navegationbar ul li{
+    border-left: solid #1f1f1f 2px;
+    padding-inline: 20px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegationbar ul li:hover{
+    background-color: #1f1f1f;
+}
+
+.navegationbar ul li img{
+    filter: invert(100%);
+}
+
+#navlogoofa{
+    width: auto;
+    height: 20px;
+    padding-left: 20px;
+}
+
+#editpress{
+    border-radius: 0px 30px 30px 0px;
+    padding-right: 30px;
 }
 
 footer{
